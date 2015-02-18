@@ -1,0 +1,12 @@
+/*
+CSS Map
+*/
+#map {
+height: 100%; width: 100%; position: absolute; top: 0; left: 0;
+}
+.flotante{
+	position: absolute; 
+	top: 10px; 
+	left: 100px; 
+	z-index: 99;
+}
