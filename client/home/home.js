@@ -1,10 +1,10 @@
-Template.home.rendered = function() {
-	//We use Tracker to re-render map
-	//when a new marker is added
-	 Tracker.autorun(function(){
+Template.home.onRendered(function(){
+  //We use Tracker to re-render map
+  //when a new marker is added
+   Tracker.autorun(function(){
           initializeMap();
-	 })
-}
+   })
+})
 
 //Global Function to initialize the map
 initializeMap = function() {
