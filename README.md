@@ -1,9 +1,9 @@
 # MeteorJs Sample Demo
 
-**information**
+## About this DEMO
 
 Click on the map to add new marker.
-or Click on the marker to remove the marker.
+
 
 [DEMO](http://ethaan-map.meteor.com/)
 
